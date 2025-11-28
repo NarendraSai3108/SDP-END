@@ -1,0 +1,62 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  font-family: 'Poppins', sans-serif;
+}
+
+.auth-box {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.auth-box h2 {
+  margin-bottom: 2rem;
+  color: #ff6a00;
+}
+
+.auth-box input {
+  display: block;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.login-btn {
+  background-color: #ff6a00;
+}
+
+.login-btn:hover {
+  background-color: #ee5400;
+}
+
+/* AuthPages.css */
+.register-btn {
+  background-color: #51a78a !important; /* force color */
+  color: #fdfdfd !important;
+}
+
+.register-btn:hover {
+  background-color: #316d8e !important;
+}
